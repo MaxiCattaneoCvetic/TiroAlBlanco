@@ -1,0 +1,57 @@
+body{
+    background: url(/img/15717613_SL_091219_23330_38.jpg);
+    width: fit-content;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.76);
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.76);
+}
+canvas{
+    position: relative;
+    left: 32%;
+    margin-top: 10rem;
+    border: 5px solid black;
+    display: none;
+}
+
+.input_n{
+    background: none;
+    color: rgba(255, 255, 255, 0.76);
+    border: 2px solid black;
+}
+
+.input_n::placeholder{
+    color: white;
+}
+
+.datos_jugador{
+    position: relative;
+    left: 32%;
+}
+
+.form{
+    height: 50rem;
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    border: 10px solid black;
+    background: none;
+}
+.btn:hover{
+    background-color: red;
+}
+
+
+.nombre{
+    font-size: 2rem;
+}
+.score{
+    font-size: 2rem;
+    
+}
